@@ -1,5 +1,6 @@
 require('./gulp/tasks/styles');
 require('./gulp/tasks/watch');
+require('./gulp/tasks/scripts');
 
 // const gulp = require('gulp');
 // const watch = require('gulp-watch');
