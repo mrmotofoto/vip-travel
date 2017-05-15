@@ -46,11 +46,16 @@
     font-size: .8rem;
     background-color: rgba($mainBlue, .9);
     margin-top: 10px;
+
     @mixin atMedium {
       background-color: transparent;
       font-size: 1rem;
       padding: 12px 0;
       margin-top: 0px;
+
+      &.is-current-link {
+        color:#fabb99;
+      }
     }
   }
 }
